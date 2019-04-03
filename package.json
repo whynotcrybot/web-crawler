@@ -2,9 +2,10 @@
   "name": "web-crawler",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
     "axios": "^0.18.0",
     "node-html-parser": "^1.1.13",
     "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
